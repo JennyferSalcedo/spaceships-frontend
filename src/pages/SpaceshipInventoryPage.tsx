@@ -5,7 +5,7 @@ export const SpaceshipInventoryPage = () => {
   /**
    * URL de mi backend - endpoint que estoy consumiendo
    */
-  const baseURL = 'http://localhost:8080/v1/api/spaceships';
+  const baseURL = 'https://app-spaceships.herokuapp.com/v1/api/spaceships';
 
 
 /**

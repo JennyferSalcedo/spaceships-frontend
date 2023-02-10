@@ -41,7 +41,7 @@ export const CreateSpaceshipPage = () => {
   /**
    * Endpoint de mi backend
    */
-  const baseURL = 'http://localhost:8080/v1/api/spaceships';
+  const baseURL = 'https://app-spaceships.herokuapp.com/v1/api/spaceships';
 
   const { postFetch } = useFetch(baseURL);
 

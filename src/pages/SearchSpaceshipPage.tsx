@@ -11,7 +11,7 @@ export const SearchSpaceshipPage = () => {
   /**
    * Armo el endpoint que enviaré al backend
    */
-  const baseURL = `http://localhost:8080/v1/api/spaceships/filter?name=${inputValue.trim()}`;
+  const baseURL = `https://app-spaceships.herokuapp.com/v1/api/spaceships/filter?name=${inputValue.trim()}`;
   /**
    * Le realizó la petición al backend con el criterio de búsqueda de mi input
    */
