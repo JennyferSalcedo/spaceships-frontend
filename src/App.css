@@ -1,0 +1,119 @@
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/veticalImage.jpeg');
+}
+.formContainer {
+  background-color: white;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 1rem;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prueba {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.TitleContainer {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.midItem {
+  height: 5%;
+}
+
+.fieldsContainer {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.radios {
+  display: flex;
+  flex-direction: column;
+}
+
+.item1 {
+  width: 100%;
+}
+
+.item2 {
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.labelText {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.obligatory {
+  color: red;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  height: 5%;
+  margin: 1rem;
+}
+
+.button {
+  background-color: chocolate;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+}
+
+.cardSpaceship {
+  margin: 1rem;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inventoryContainer {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/lost.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inventoryTitle {
+  color: white;
+  margin: 0rem 0rem 1rem 2rem;
+}
+
+.searchContainer {
+  /* margin: 1.5rem; */
+  height: 100%;
+  background-color: palegreen;
+  background-image: url('./assets/wallpaper.jpeg');
+  /* overflow: hidden; */
+}
+
+.searchInput {
+  width: 90%;
+  height: 3rem;
+  margin: 1.5rem;
+  border-radius: 0.5rem;
+}

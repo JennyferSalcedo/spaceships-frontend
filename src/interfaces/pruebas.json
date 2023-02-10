@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Pionero X",
+        "weight": "258",
+        "pushingPower": 26,
+        "loadedWeight": "118",
+        "height": 100,
+        "fuel": "Propelente Liquido",
+        "speed": "18000",
+        "hasCells": true,
+        "groundClearance": null
+    },
+    {
+        "name": "Saturno VI",
+        "weight": "1500",
+        "pushingPower": 3500,
+        "loadedWeight": "118",
+        "height": 100,
+        "fuel": "Propelente Liquido",
+        "speed": "0",
+        "hasCells": false,
+        "groundClearance": null,
+        "numberOfSeats": null
+    },
+    {
+        "name": "Saturno V",
+        "weight": "2900",
+        "pushingPower": 3500,
+        "loadedWeight": "118",
+        "height": 100,
+        "fuel": "Propelente Liquido",
+        "speed": "0",
+        "hasCells": false,
+        "groundClearance": null,
+        "numberOfSeats": null
+    },
+    {
+        "name": "Saturno X",
+        "weight": "2900",
+        "height": 120,
+        "fuel": "Propelente Liquido",
+        "speed": "0",
+        "hasCells": false,
+        "groundClearance": "1000",
+        "numberOfSeats": 10
+    }
+]
