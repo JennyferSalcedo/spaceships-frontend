@@ -7,7 +7,7 @@
 		"node": "18.x"
 	},
   "scripts": {
-    "heroku-prebuild": "yarn install -g serve",
+    "heroku-prebuild": "yarn global add serve",
     "start": "serve -s dist",
     "dev": "vite",
     "build": "tsc && vite build",
